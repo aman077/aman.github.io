@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register-style.css">
+    <title>Register | form</title>
+</head>
+
+<body>
+    <section id="contactForm">
+        <div class="center">
+            <h1 id="reg">Register here</h1>
+        </div>
+        <form action="/contact" onsubmit="return validation()" method="POST" id="form-box">
+            <div class="box">
+                <!-- <label for="user1"><h3>Username</h3></label> -->
+                <input type="text" name="username" placeholder="Enter Username" class="user" id="user1">
+
+            </div>
+            <span id="username" style="color: red;"></span>
+
+            <div class="box">
+                <!-- <label for="pass1"><h3>Password</h3></label> -->
+                <input type="password" placeholder="Enter Password" class="pass" id="pass1" name="password">
+
+            </div>
+            <span id="password" style="color: red;"></span>
+
+            <div class="box">
+                <!-- <label for="conPass"><h3>Confirm Password<h3></label> -->
+                <input type="password" placeholder="Re-enter Password" class="confirmPass" id="conPass" name="confirmP">
+
+            </div>
+            <span id="confirm" style="color: red;"></span>
+
+            <!-- <div class="box-rad">
+                <h3>Gender</h3> 
+                <label for="rad1">Male</h3></label>
+                <input type="radio" name="rad" id="rad1">
+                <label for="rad2">Female</label>
+                <input type="radio" name="rad" id="rad2">
+                
+            </div> -->
+            <span class="radiobox" id="txt-clr"></span>
+
+            <!-- <h3>Courses</h3>
+        <label for="c1"><h3 style="display: inline;">BCA</h3></label>
+        <input type="checkbox" name="bca" id="c1">
+        <label for="c2"><h3 style="display: inline;">MBA</h3></label>
+        <input type="checkbox" name="mba" id="c2">
+        <label for="c3"><h3 style="display: inline;">MCA</h3></label>
+        <input type="checkbox" name="mca" id="c3">
+        <label for="c4"><h3 style="display: inline;">Btech</h3></label>
+        <input type="checkbox" name="btech" id="c4">
+        <span class="checkbox" id="txt-clr"></span>  -->
+
+            <div class="box">
+                <!-- <label for="con1"><h3>contact</h3></label> -->
+                <input type="contact" placeholder="Enter contact" class="contact" id="con1" name="contact">
+                <span id="contact" style="color: red;"></span>
+            </div>
+            <span id="contact" style="color: red;"></span>
+
+            <div class="box">
+                <!-- <label for="email1"><h3>email</h3></label> -->
+                <input type="text" placeholder="Enter email" class="email" id="email1" name="email">
+                <span id="mail" style="color: red;"></span>
+            </div>
+            <span id="mail" style="color: red;"></span>
+
+            <!-- <label for="addr"><h3>Address</h3></label> -->
+            <textarea name="add" id="addr" cols="30" rows="10" placeholder="Your address" name="address"></textarea>
+            <span id="address"></span>
+
+            <!-- <div class="box">
+            <label for="drop"><h3>Programming languages</h3></label>
+            <select name="dropdown" id="drop">
+                <option value="c">c++</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+            </select>
+            <span class="languages" id="txt-clr"></span>
+        </div>  -->
+
+            <div class="button">
+                <!-- <input type="reset" value="Reset"> -->
+                <button class="btn" type="reset">Reset</button>
+                <button class="btn" type="submit">Submit</button>
+                <!-- <input type="submit" value="Submit"> -->
+            </div>
+        </form>
+
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family:'Baloo Chettan 2', cursive;
+ }
+ 
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+   }
+
+   .container .box img{
+    padding: 11px;
+
+   }
+
+   .container .box img{
+       width: 400px; 
+      transition-property: width;
+      transition-duration: 1s;
+      transition-timing-function: ease-in-out;
+      position: relative;
+      z-index: 1;
+      
+   }
+
+   .container #test{
+       position: relative;
+       top: 20px;
+       left: 20px;
+       z-index: 3;
+   }
+
+ 
+
+  .container .box img:hover {
+    width: 500px;
+    opacity: rgba(38, 38, 46,0.5);
+  }
+
+   .port-f{
+       text-align: center;
+   }
+
+ .li-container-1{
+    width: 40%;
+    float: left;
+    
+  }
+.li-container-2{
+    width: 40%;
+    float: right;
+    position: relative;
+    top: -298px;
+  }
+  
+  #skills .custom-subheading{
+      position: relative;
+      top: 40px;
+  }
+
+  #skills .pos-container{
+      position: relative;
+      top: 64px;
+  }
+
+  .li-container-2 img{
+      color: #4b5259;
+  }
+
+  #interests .insert-one{
+      margin-top: -235px;
+      padding: 0px;
+  }
+
+  .insert-one-2{
+      margin-top: -189px;
+      position: relative;
+      top: 247px;
+  }
+
+  #interests{
+      padding-top: 0px;
+      padding-bottom: 0px;
+      height: 0px
+  }
+
+  #img-id{
+      position: relative;
+      top: -98px;
+      left: 152px;
+      width: 100vh;
+  }

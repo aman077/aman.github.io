@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-family: 'Baloo Chettan 2', cursive;
+}
+
+#contactForm {
+    height: 900px;
+    width: 100vw;
+    position: absolute;
+    /* top: 95%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactForm #form-box {
+    height: 700px;
+    width: 622px;
+    /* background-color: rgba(39, 39, 39, 0.993); */
+    background-image: url('../backg.jpg');
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    /* top: -56px; */
+    left: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* opacity: -0.5; */
+}
+
+#contactForm #form-box input {
+    width: 400px;
+    height: 50px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid rgba(207, 0, 0, 0.836);
+    color: white;
+}
+
+/* #contactForm #form-box #password {
+    width: 190px;
+    position: relative;
+    left: -105px;
+} */
+
+.btn{
+    margin: 0px 8px;
+    padding: 12px 0px;
+    width: 120px;
+    font-family: 'Baloo Chettan 2', cursive;
+    background-color: rgb(199, 30, 30);
+    color: white;
+    border: none;
+    position: relative;
+    top: 30px;
+}
+
+/* hovering button property  */
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#reg {
+    position: absolute;
+    top: 15px;
+    left: 32%;
+    font-size: 40px;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: white;
+    text-shadow: 0px 2px 3px rgba(29, 29, 29, 0.856);
+}
+
+.center{
+    background-color: rgb(199, 30, 30);
+    height: 100px;
+    width: 622px;
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+
+#contactForm #form-box #addr{
+    width: 400px;
+    height: 50px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid rgba(207, 0, 0, 0.836);
+    color: white;
+}
+
